@@ -5,7 +5,10 @@
 
 # 2. 生成ssh key
     ssh-keygen -t rsa -C "tianchang1994@gmail.com"
-    ssh -T git@github.com
+    
 
 # 3. github添加ssh key
     github的setting里面
+
+# 4. 测试连接
+    ssh -T git@github.com
